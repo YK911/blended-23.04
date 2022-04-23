@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <a class="logo" href="">Web<span>Studio</span></a>
+        <nav class="nav">
+          <button
+            class="mobile-menu-btn"
+            data-menu-button
+            type="button"
+            aria-expanded="false"
+          >
+            <svg class="mobile-menu-icon" width="40" height="40">
+              <use
+                class="mobile-menu-icon-menu"
+                href="./images/icons/icons.svg#icon-menu"
+              ></use>
+              <use
+                class="mobile-menu-icon-close"
+                href="./images/icons/icons.svg#icon-close"
+              ></use>
+            </svg>
+          </button>
+          <div class="mobile-menu" data-menu>
+            <ul class="mobile-menu-nav">
+              <li><a href="">Студия</a></li>
+              <li><a href="">Портфолио</a></li>
+              <li><a href="">Контакты</a></li>
+            </ul>
+            <div class="mobile-menu-group">
+              <ul class="mobile-menu-contacts">
+                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li>
+                  <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+              </ul>
+              <ul class="mobile-menu-socials">
+                <li class="mobile-menu-socials-item">
+                  <a
+                    class="mobile-menu-socials-link"
+                    href=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Instagram</a
+                  >
+                </li>
+                <li class="mobile-menu-socials-item">
+                  <a
+                    class="mobile-menu-socials-link"
+                    href=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Twitter</a
+                  >
+                </li>
+                <li class="mobile-menu-socials-item">
+                  <a
+                    class="mobile-menu-socials-link"
+                    href=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Facebook</a
+                  >
+                </li>
+                <li class="mobile-menu-socials-item">
+                  <a
+                    class="mobile-menu-socials-link"
+                    href=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >LinkedIn</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <ul class="nav-list">
+            <li class="nav-list-item">
+              <a class="nav-list-link" href="">Студия</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-list-link" href="">Портфолио</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-list-link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-contacts">
+          <li class="header-contacts-item">
+            <a class="header-contacts-link" href="mailto:info@devstudio.com">
+              <svg class="icon-mail" width="14" height="10">
+                <use href="./images/icons/icons.svg#icon-mail"></use>
+              </svg>
+              info@devstudio.com</a
+            >
+          </li>
+          <li class="header-contacts-item">
+            <a class="header-contacts-link" href="tel:+380961111111">
+              <svg class="icon-phone" width="10" height="14">
+                <use href="./images/icons/icons.svg#icon-phone"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <section class="animated-box">
+        <div class="container">
+          <div class="box">
+            <div class="box-group">
+              <div class="img-thumb">
+                <img
+                  class="box-img"
+                  src="./images/avatar/michael.jpg"
+                  alt=""
+                  width="640"
+                  height="960"
+                />
+              </div>
+              <div class="box-group-inner">
+                <h2 class="box-title">Michelle Dou</h2>
+                <p class="box-text">UX/UI Designer</p>
+                <button class="box-btn">Hire me</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="footer-address">
+          <a class="logo" href="">Web<span>Studio</span></a>
+          <address class="address">
+            <ul>
+              <li>
+                <a href=""> г. Киев, пр-т Леси Украинки, 26</a>
+              </li>
+              <li>
+                <a href="">info@example.com</a>
+              </li>
+              <li>
+                <a href="">+38 099 111 11 11</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer-socials">
+          <h2>присоединяйтесь</h2>
+          <ul>
+            <li>
+              <a href="">
+                <svg width="20" height="20">
+                  <use href="./images/icons/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <svg width="20" height="20">
+                  <use href="./images/icons/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <svg width="20" height="20">
+                  <use href="./images/icons/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <svg width="20" height="20">
+                  <use href="./images/icons/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-form">
+          <h2>Подпишитесь на рассылку</h2>
+          <form>
+            <input type="email" name="mail" placeholder="E-mail" />
+            <button type="submit">
+              Подписаться
+              <svg width="24" height="24">
+                <use href="./images/icons/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/mobile-menu.js"></script>
+  </body>
+</html>
